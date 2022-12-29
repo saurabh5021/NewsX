@@ -28,7 +28,7 @@ import com.google.firebase.auth.FirebaseUser;
 public class LoginActivity extends AppCompatActivity {
     EditText username, password;
     MaterialButton btnlogin;
-    TextView signup;
+    TextView signup, forgotpass;
     ImageView google, fb,twitter;
     private FirebaseAuth mAuth;
     private FirebaseUser mUser;
@@ -48,6 +48,7 @@ public class LoginActivity extends AppCompatActivity {
         btnlogin = findViewById(R.id.loginbtn);
         google = findViewById(R.id.googlesignin);
         mUser = mAuth.getCurrentUser();
+        forgotpass = findViewById(R.id.forgotpass);
 
 //        gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestEmail().build();
 //        gsc = GoogleSignIn.getClient(this,gso);
@@ -56,6 +57,13 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 login();
+            }
+        });
+
+        forgotpass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(LoginActivity.this, ResetPasswordActivity.class));
             }
         });
 
