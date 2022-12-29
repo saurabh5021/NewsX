@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "195454392534",
+    "project_id": "newsx-24333",
+    "storage_bucket": "newsx-24333.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195454392534:android:ab162712d0a6f891b75177",
+        "android_client_info": {
+          "package_name": "com.example.newsx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "195454392534-9m4lnpkosltpga3e9tugq8qvchm3thl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB60tLnor_1BXYOrAka5cqSfJTFepjqopQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "195454392534-9m4lnpkosltpga3e9tugq8qvchm3thl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

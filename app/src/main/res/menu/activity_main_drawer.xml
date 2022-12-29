@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_aajtak"
+            android:icon="@drawable/aajtak"
+            android:title="Aaj Tak"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_indiatv"
+            android:icon="@drawable/indiatv"
+            android:title="India TV"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_zeenews"
+            android:icon="@drawable/zeenews"
+            android:title="Zee News"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_tv9marathi"
+            android:icon="@drawable/tv9marathi"
+            android:title="TV9 Marathi"
+            android:menuCategory="secondary"/>
+
+        <item
+            android:id="@+id/nav_hindustantimes"
+            android:icon="@drawable/hindustantimesnew"
+            android:title="Hindustan Times"
+            android:menuCategory="secondary"/>
+    </group>
+
+    <item
+        android:title="Upcoming"
+        android:menuCategory="secondary">
+        <menu>
+            <item
+                android:id="@+id/nav_bbc"
+                android:icon="@drawable/bbc"
+                android:title="BBC" />
+
+        </menu>
+    </item>
+
+    <item
+        android:title="Log Out"
+        android:menuCategory="secondary">
+        <menu>
+            <item
+                android:id="@+id/nav_log_out"
+                android:icon="@drawable/logout"
+                android:title="Log Out"
+                android:menuCategory="secondary"/>
+
+        </menu>
+    </item>
+
+</menu>

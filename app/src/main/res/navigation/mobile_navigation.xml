@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_aajtak">
+
+    <fragment
+        android:id="@+id/nav_aajtak"
+        android:name="com.example.newsx.ui.aajTak.HomeFragment"
+        android:label="Aaj Tak"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_indiatv"
+        android:name="com.example.newsx.ui.indiaTV.GalleryFragment"
+        android:label="India TV"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_zeenews"
+        android:name="com.example.newsx.ui.zeeNews.SlideshowFragment"
+        android:label="ZEE News"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_tv9marathi"
+        android:name="com.example.newsx.Fragment.tv9MarathiFragment"
+        android:label="TV9 Marathi"
+        tools:layout="@layout/fragment_tv9_marathi" />
+
+    <fragment
+        android:id="@+id/nav_hindustantimes"
+        android:name="com.example.newsx.Fragment.HindustanTimesFragment"
+        android:label="Hindustan Times"
+        tools:layout="@layout/fragment_hindustan_times" />
+</navigation>
